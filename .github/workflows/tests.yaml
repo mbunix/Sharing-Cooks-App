@@ -1,0 +1,39 @@
+name: Sharing Cooks CI/CD workflow
+on: push
+
+env:
+  FLUTTER_VERSION: "3.3.8"
+
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Install Flutter
+        run: git clone https://github.com/flutter/flutter.git --depth 1 -b $FLUTTER_VERSION _flutter
+      - name: Add Flutter to Path
+        run: echo "$GITHUB_WORKSPACE/_flutter/bin" >> $GITHUB_PATH
+      - name: Create env file
+        run: |
+          touch .env
+          echo DEV_SENTRY_DNS=${{ secrets.DEV_SENTRY_DNS }} >> .env
+          echo GOOGLE_MAPS_API_KEY=${{ secrets.GOOGLE_MAPS_API_KEY }} >> .env
+          cat .env
+      - name: Install Flutter Dependencies
+        run: flutter pub get
+      - name: Flutter Analyze on lib
+        run: flutter analyze lib/
+      - name: Flutter Analyze on tests files
+        run: flutter analyze test/
+      - name: Check Flutter Formatting
+        run: flutter format lib/**
+      - name: Run Flutter Tests
+        run: flutter test --coverage test/
+      # - name: Install lcov
+      #   run: sudo apt-get -qq update && sudo apt-get install -qqy lcov python3-pip && pip3 install -Uqqq lxml && pip3 install -Uqqq beautifulsoup4
+      # - name: Exclude generated code
+      #   run: lcov --remove coverage/lcov.info 'lib/*.g.dart' -o coverage/lcov.info && lcov --remove coverage/lcov.info 'lib/**/*.freezed.dart' -o coverage/lcov.info && lcov --remove coverage/lcov.info 'lib/**/*.gr.dart' -o coverage/lcov.info
+      # - name: Generate coverage files
+      #   run: genhtml -q -o coverage coverage/lcov.info && python3 check_coverage.py
