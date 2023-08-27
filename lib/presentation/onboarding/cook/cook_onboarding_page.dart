@@ -175,7 +175,7 @@ class CookOnboardingSliderWidgetItem extends StatelessWidget {
               ),
             ],
           ),
-        )
+        ),
       ],
     );
   }

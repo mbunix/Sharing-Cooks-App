@@ -108,7 +108,7 @@ class SharingCooksStateDatabase implements PersistorPrinterDecorator<AppState> {
 
   /// saves app state to the database
   @visibleForTesting
-  Future<void> persistState(
+  Future<void>persistState(
     AppState newState,
     SharingCooksDatabaseBase<dynamic> database,
   ) async {

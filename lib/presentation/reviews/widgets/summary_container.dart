@@ -14,9 +14,9 @@ class SummaryContainer extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
-        Column(
+        const Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: const <Widget>[
+          children: <Widget>[
             RatingItem(
               ratingCount: 5,
               ratingValue: 5,
@@ -60,7 +60,7 @@ class SummaryContainer extends StatelessWidget {
                 Text(
                   '10 Reviews',
                   style: normalSize12Text(AppColors.greyTextColor),
-                )
+                ),
               ],
             ),
             size40VerticalSizedBox,
@@ -75,11 +75,11 @@ class SummaryContainer extends StatelessWidget {
                 Text(
                   '10 Reviews',
                   style: normalSize12Text(AppColors.greyTextColor),
-                )
+                ),
               ],
-            )
+            ),
           ],
-        )
+        ),
       ],
     );
   }

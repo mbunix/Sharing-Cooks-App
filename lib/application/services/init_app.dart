@@ -103,7 +103,7 @@ Future<void> initApp(AppContext appContexts) async {
             providers: <SingleChildWidget>[
               provider.ChangeNotifierProvider<AppService>(
                 create: (_) => AppService(),
-              )
+              ),
             ],
             child: SHaringCooksApp(
               store: store,

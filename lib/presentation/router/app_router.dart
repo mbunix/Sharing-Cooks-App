@@ -28,8 +28,8 @@ class AppRouter {
 
     switch (settings.name) {
       case AppRoutes.onboardingPage:
-        return MaterialPageRoute<CompleteOrderPage>(
-          builder: (_) => const CompleteOrderPage(),
+        return MaterialPageRoute<OnboardingPage>(
+          builder: (_) => const OnboardingPage(),
         );
 
       case AppRoutes.phoneVerificationPage:

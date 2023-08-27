@@ -108,7 +108,7 @@ class MyKitchenPage extends StatelessWidget {
                         ),
                       ],
                     ),
-                  )
+                  ),
                 ],
               ),
               mediumVerticalSizedBox,
@@ -239,7 +239,7 @@ class MyKitchenPage extends StatelessWidget {
                                 SizedBox(
                                   height: 20,
                                 ),
-                                CommentsList()
+                                CommentsList(),
                               ],
                             ),
                           ],
@@ -266,7 +266,7 @@ class MyKitchenPage extends StatelessWidget {
                   },
                   child: const Text('List a meal'),
                 ),
-              )
+              ),
             ],
           ),
         ),

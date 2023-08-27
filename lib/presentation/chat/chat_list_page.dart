@@ -102,7 +102,7 @@ class _ChatListPageState extends State<ChatListPage> {
                           //     ),
                           //   ),
                           // ),
-                          const SizedBox(height: 40.0)
+                          const SizedBox(height: 40.0),
                         ],
                       ),
                     );
@@ -281,7 +281,7 @@ class ChatItemWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                )
+                ),
               ],
             )
           : Row(

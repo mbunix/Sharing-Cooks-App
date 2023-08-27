@@ -65,7 +65,7 @@ class ListMealPage extends StatelessWidget {
                             ),
                             textAlign: TextAlign.center,
                           ),
-                        )
+                        ),
                       ],
                     ),
                   ),
@@ -294,7 +294,7 @@ class ListMealPage extends StatelessWidget {
                     onPressed: () {},
                     child: const Text(saveDetailsString),
                   ),
-                )
+                ),
               ],
             ),
           ),

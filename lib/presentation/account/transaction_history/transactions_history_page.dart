@@ -125,13 +125,13 @@ class TransactionsHistoryPage extends StatelessWidget {
                         Text(
                           '2022 December',
                           style: normalSize14Text(AppColors.greyTextColor),
-                        )
+                        ),
                       ],
                     ),
                     const Icon(
                       Icons.keyboard_arrow_right,
                       color: AppColors.greyTextColor,
-                    )
+                    ),
                   ],
                 ),
                 size15VerticalSizedBox,

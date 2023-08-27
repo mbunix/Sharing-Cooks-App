@@ -15,7 +15,7 @@ class AppService extends ChangeNotifier {
 
     await supabaseClient.from('contact').insert(<String, dynamic>{
       'id': response.user!.id,
-      'username': 'User $i'
+      'username': 'User $i',
     }).execute();
   }
 
@@ -36,7 +36,7 @@ class AppService extends ChangeNotifier {
         .from('contact')
         .insert(<String, dynamic>{
       'id': response.user!.id,
-      'username': username
+      'username': username,
     }).execute();
     return <String, dynamic>{
       'auth_response': response,

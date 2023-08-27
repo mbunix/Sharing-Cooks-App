@@ -59,13 +59,13 @@ class PreOrdersPage extends StatelessWidget {
                         Text(
                           archivedOrdersString,
                           style: normalSize14Text(AppColors.greyTextColor),
-                        )
+                        ),
                       ],
                     ),
                     const Icon(
                       Icons.keyboard_arrow_right,
                       color: AppColors.greyTextColor,
-                    )
+                    ),
                   ],
                 ),
                 mediumVerticalSizedBox,
@@ -166,11 +166,11 @@ class OrderItemWidget extends StatelessWidget {
                       style: normalSize14Text(
                         AppColors.secondaryTextColor.withOpacity(0.8),
                       ),
-                    )
+                    ),
                   ],
-                )
+                ),
               ],
-            )
+            ),
           ],
         ),
         size15VerticalSizedBox,

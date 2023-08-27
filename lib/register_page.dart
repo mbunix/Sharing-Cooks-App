@@ -128,7 +128,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       ),
                     ),
                   ],
-                )
+                ),
               ],
             ),
             largeVerticalSizedBox,

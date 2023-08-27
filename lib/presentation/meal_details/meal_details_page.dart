@@ -94,13 +94,13 @@ class _MealDetailsPageState extends State<MealDetailsPage> {
                         Text(
                           "Michelle's Kitchen",
                           style: boldSize14Text(AppColors.greyTextColor),
-                        )
+                        ),
                       ],
                     ),
                     Text(
                       '1KM away',
                       style: boldSize14Text(AppColors.greyTextColor),
-                    )
+                    ),
                   ],
                 ),
                 mediumVerticalSizedBox,
@@ -114,7 +114,7 @@ class _MealDetailsPageState extends State<MealDetailsPage> {
                         Text(
                           '4.6 (29 Reviews)',
                           style: boldSize14Text(AppColors.greyTextColor),
-                        )
+                        ),
                       ],
                     ),
                     Row(
@@ -124,7 +124,7 @@ class _MealDetailsPageState extends State<MealDetailsPage> {
                         Text(
                           '8 servings available',
                           style: boldSize14Text(AppColors.greyTextColor),
-                        )
+                        ),
                       ],
                     ),
                   ],

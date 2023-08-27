@@ -10,8 +10,8 @@ class CommentsList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: const <Widget>[
+    return const Column(
+      children: <Widget>[
         ReviewResponseWidget(
           assetPngPath: profilePicPngPath,
           name: "Michelle's kitchen",
@@ -103,17 +103,17 @@ class ReviewResponseWidget extends StatelessWidget {
                         tinyHorizontalSizedBox,
                         SvgPicture.asset(starIconSvgPath),
                       ],
-                    )
+                    ),
                   ],
                 ),
                 verySmallVerticalSizedBox,
                 Text(
                   message,
                   style: normalSize14Text(AppColors.greyTextColor),
-                )
+                ),
               ],
             ),
-          )
+          ),
         ],
       ),
     );

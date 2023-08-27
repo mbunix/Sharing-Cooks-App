@@ -63,7 +63,7 @@ class SelectOptionField extends StatelessWidget {
                 hintText!,
                 style: Theme.of(context)
                     .textTheme
-                    .headline6!
+                    .titleLarge!
                     .copyWith(color: Colors.grey, fontSize: 16),
               )
             : null,

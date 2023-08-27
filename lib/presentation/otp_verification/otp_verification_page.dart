@@ -55,7 +55,7 @@ class OTPVerificationPage extends StatelessWidget {
                     onChanged: (String val) {},
                     keyboardType: TextInputType.number,
                     inputFormatters: <TextInputFormatter>[
-                      FilteringTextInputFormatter.digitsOnly
+                      FilteringTextInputFormatter.digitsOnly,
                     ],
                     onCompleted: (String val) {
                       Navigator.pushNamedAndRemoveUntil(

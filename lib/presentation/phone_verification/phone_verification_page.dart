@@ -28,7 +28,7 @@ class _PhoneVerificationPageState extends State<PhoneVerificationPage> {
       'US',
       'UG',
       'UK',
-      'TZ'
+      'TZ',
     ];
     countryPicker = FlCountryCodePicker(
       favorites: favoriteCountries,
@@ -104,7 +104,7 @@ class _PhoneVerificationPageState extends State<PhoneVerificationPage> {
                               Icons.keyboard_arrow_down,
                               color: AppColors.greyTextColor,
                               size: 18,
-                            )
+                            ),
                           ],
                         ),
                       ),
@@ -115,7 +115,7 @@ class _PhoneVerificationPageState extends State<PhoneVerificationPage> {
                         hintText: '0000 000 0000',
                         keyboardType: TextInputType.number,
                         inputFormatters: <TextInputFormatter>[
-                          FilteringTextInputFormatter.digitsOnly
+                          FilteringTextInputFormatter.digitsOnly,
                         ],
                       ),
                     ),
@@ -147,7 +147,7 @@ class _PhoneVerificationPageState extends State<PhoneVerificationPage> {
                     skipForNowString,
                     style: boldSize14Text(Theme.of(context).primaryColor),
                   ),
-                )
+                ),
               ],
             ),
           ),

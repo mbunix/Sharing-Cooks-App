@@ -128,7 +128,7 @@ class ActionItem extends StatelessWidget {
               const Icon(
                 Icons.keyboard_arrow_right,
                 color: AppColors.greyTextColor,
-              )
+              ),
             ],
           ),
           mediumVerticalSizedBox,

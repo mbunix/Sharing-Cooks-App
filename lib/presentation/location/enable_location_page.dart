@@ -316,7 +316,7 @@ class _EnableLocationPageState extends State<EnableLocationPage> {
                         skipForNowString,
                         style: boldSize14Text(Theme.of(context).primaryColor),
                       ),
-                    )
+                    ),
                   ],
                 ),
               );

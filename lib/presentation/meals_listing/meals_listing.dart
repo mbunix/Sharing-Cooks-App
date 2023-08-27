@@ -129,7 +129,7 @@ class _MealsListingState extends State<MealsListing> {
                           ),
                         ),
                       ),
-                      const CartButton()
+                      const CartButton(),
                     ],
                   ),
                   smallVerticalSizedBox,
@@ -297,7 +297,7 @@ class MealItem extends StatelessWidget {
                 1.0, // Move to right 5  horizontally
                 1.0, // Move to bottom 5 Vertically
               ),
-            )
+            ),
           ],
         ),
         child: Row(
@@ -331,9 +331,9 @@ class MealItem extends StatelessWidget {
                           style: boldSize12Text(AppColors.greyTextColor),
                         ),
                       ],
-                    )
+                    ),
                   ],
-                )
+                ),
               ],
             ),
             smallHorizontalSizedBox,
@@ -363,10 +363,10 @@ class MealItem extends StatelessWidget {
                         style: boldSize12Text(AppColors.greyTextColor),
                       ),
                     ],
-                  )
+                  ),
                 ],
               ),
-            )
+            ),
           ],
         ),
       ),

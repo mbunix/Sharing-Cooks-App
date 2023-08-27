@@ -74,7 +74,7 @@ class AccountPage extends StatelessWidget {
                           ),
                         ],
                       ),
-                    )
+                    ),
                   ],
                 ),
                 largeVerticalSizedBox,
@@ -123,13 +123,13 @@ class AccountPage extends StatelessWidget {
                           Text(
                             editYourAccountString,
                             style: normalSize14Text(AppColors.greyTextColor),
-                          )
+                          ),
                         ],
                       ),
                       const Icon(
                         Icons.keyboard_arrow_right,
                         color: AppColors.greyTextColor,
-                      )
+                      ),
                     ],
                   ),
                 ),
@@ -162,13 +162,13 @@ class AccountPage extends StatelessWidget {
                           Text(
                             '4.5 / 29 Reviews',
                             style: normalSize14Text(AppColors.greyTextColor),
-                          )
+                          ),
                         ],
                       ),
                       const Icon(
                         Icons.keyboard_arrow_right,
                         color: AppColors.greyTextColor,
-                      )
+                      ),
                     ],
                   ),
                 ),
@@ -198,13 +198,13 @@ class AccountPage extends StatelessWidget {
                           Text(
                             transactionHistoryString,
                             style: normalSize14Text(AppColors.greyTextColor),
-                          )
+                          ),
                         ],
                       ),
                       const Icon(
                         Icons.keyboard_arrow_right,
                         color: AppColors.greyTextColor,
-                      )
+                      ),
                     ],
                   ),
                 ),
@@ -229,13 +229,13 @@ class AccountPage extends StatelessWidget {
                         Text(
                           inviteAndEarnString,
                           style: normalSize14Text(AppColors.greyTextColor),
-                        )
+                        ),
                       ],
                     ),
                     const Icon(
                       Icons.keyboard_arrow_right,
                       color: AppColors.greyTextColor,
-                    )
+                    ),
                   ],
                 ),
                 size15VerticalSizedBox,
@@ -279,13 +279,13 @@ class AccountPage extends StatelessWidget {
                           Text(
                             switchToCookString,
                             style: normalSize14Text(AppColors.greyTextColor),
-                          )
+                          ),
                         ],
                       ),
                       const Icon(
                         Icons.keyboard_arrow_right,
                         color: AppColors.greyTextColor,
-                      )
+                      ),
                     ],
                   ),
                 ),
@@ -310,13 +310,13 @@ class AccountPage extends StatelessWidget {
                         Text(
                           logoutString,
                           style: normalSize14Text(AppColors.greyTextColor),
-                        )
+                        ),
                       ],
                     ),
                     const Icon(
                       Icons.keyboard_arrow_right,
                       color: AppColors.greyTextColor,
-                    )
+                    ),
                   ],
                 ),
                 size15VerticalSizedBox,
@@ -340,13 +340,13 @@ class AccountPage extends StatelessWidget {
                         Text(
                           deleteAccountString,
                           style: normalSize14Text(AppColors.greyTextColor),
-                        )
+                        ),
                       ],
                     ),
                     const Icon(
                       Icons.keyboard_arrow_right,
                       color: AppColors.greyTextColor,
-                    )
+                    ),
                   ],
                 ),
                 largeVerticalSizedBox,

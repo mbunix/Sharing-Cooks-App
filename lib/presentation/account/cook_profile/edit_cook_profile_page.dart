@@ -133,7 +133,7 @@ class EditCookProfilePage extends StatelessWidget {
                                 ),
                               ),
                             ),
-                          )
+                          ),
                         ],
                       ),
                       mediumVerticalSizedBox,
@@ -378,7 +378,7 @@ class EditCookProfilePage extends StatelessWidget {
                             onChanged: (String val) {},
                             keyboardType: TextInputType.number,
                             inputFormatters: <TextInputFormatter>[
-                              FilteringTextInputFormatter.digitsOnly
+                              FilteringTextInputFormatter.digitsOnly,
                             ],
                           ),
                           Positioned(
@@ -392,7 +392,7 @@ class EditCookProfilePage extends StatelessWidget {
                                 child: SvgPicture.asset(verifiedIconSvgPath),
                               ),
                             ),
-                          )
+                          ),
                         ],
                       ),
                       mediumVerticalSizedBox,
@@ -423,7 +423,7 @@ class EditCookProfilePage extends StatelessWidget {
                                   ),
                                   textAlign: TextAlign.center,
                                 ),
-                              )
+                              ),
                             ],
                           ),
                         ),
@@ -524,7 +524,7 @@ class EditCookProfilePage extends StatelessWidget {
                                   ),
                                   textAlign: TextAlign.center,
                                 ),
-                              )
+                              ),
                             ],
                           ),
                         ),
@@ -596,7 +596,7 @@ class EditCookProfilePage extends StatelessWidget {
                                   ),
                                   textAlign: TextAlign.center,
                                 ),
-                              )
+                              ),
                             ],
                           ),
                         ),
@@ -627,7 +627,7 @@ class EditCookProfilePage extends StatelessWidget {
                   },
                   child: const Text(saveDetailsString),
                 ),
-              )
+              ),
             ],
           ),
         ),

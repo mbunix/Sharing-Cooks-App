@@ -19,7 +19,7 @@ AuthCredentials _$AuthCredentialsFromJson(Map<String, dynamic> json) {
 }
 
 /// @nodoc
-mixin _$AuthCredentials {
+mixin  _$AuthCredentials {
   @JsonKey(name: 'idToken')
   String? get idToken => throw _privateConstructorUsedError;
   @JsonKey(name: 'expiresIn')

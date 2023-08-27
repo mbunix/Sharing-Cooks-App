@@ -162,7 +162,7 @@ class CompleteOrderPage extends StatelessWidget {
                             ),
                           ),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 ),
@@ -249,7 +249,7 @@ class CompleteOrderPage extends StatelessWidget {
                             Text(
                               paymentFailedErrorMessageTextString,
                               style: boldSize16Text(AppColors.blackTextColor),
-                            )
+                            ),
                           ],
                         ),
                         largeVerticalSizedBox,
@@ -269,7 +269,7 @@ class CompleteOrderPage extends StatelessWidget {
                             ),
                             child: const Text(retryPaymentTextString),
                           ),
-                        )
+                        ),
                       ],
                     ),
                   ),
@@ -332,7 +332,7 @@ class MealItem extends StatelessWidget {
                                 const Icon(
                                   Icons.keyboard_arrow_down,
                                   size: 18,
-                                )
+                                ),
                               ],
                             ),
                           ),
@@ -354,9 +354,9 @@ class MealItem extends StatelessWidget {
                 Text(
                   'Delivered on 2023-01-20 at 12PM',
                   style: boldSize14Text(AppColors.greyTextColor),
-                )
+                ),
               ],
-            )
+            ),
           ],
         ),
         smallVerticalSizedBox,

@@ -130,7 +130,7 @@ class ChatBubble2 extends StatelessWidget {
                       ),
                     ],
                   ),
-                )
+                ),
               ],
             )
           : Row(
@@ -161,7 +161,7 @@ class ChatBubble2 extends StatelessWidget {
                         child: Text(
                           '13.41',
                           style: boldSize12Text(
-                            AppColors.pureWhiteColor,
+                            AppColors.pureWhiteColor, 
                           ),
                         ),
                       ),

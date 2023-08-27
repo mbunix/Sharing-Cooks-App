@@ -117,7 +117,7 @@ class _CustomMealPageState extends State<CustomMealPage> {
                         customFillColor: Colors.transparent,
                         keyboardType: TextInputType.number,
                         inputFormatters: <TextInputFormatter>[
-                          FilteringTextInputFormatter.digitsOnly
+                          FilteringTextInputFormatter.digitsOnly,
                         ],
                         onChanged: (String val) {},
                         validator: (String? value) {
@@ -207,7 +207,7 @@ class _CustomMealPageState extends State<CustomMealPage> {
                                   ),
                                 ),
                               ],
-                            )
+                            ),
                           ],
                         ),
                       ),
@@ -227,7 +227,7 @@ class _CustomMealPageState extends State<CustomMealPage> {
                   onPressed: () {},
                   child: const Text(requestMealString),
                 ),
-              )
+              ),
             ],
           ),
         ),

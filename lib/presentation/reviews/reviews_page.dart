@@ -48,7 +48,7 @@ class ReviewsPage extends StatelessWidget {
                 //   ),
                 // ),
                 mediumVerticalSizedBox,
-                const CommentsList()
+                const CommentsList(),
               ],
             ),
           ),

@@ -8,15 +8,13 @@ class AppTheme {
       fontFamily: GoogleFonts.quicksand().fontFamily,
       primaryColor: AppColors.themeColors.primaryColor,
       primaryColorDark: AppColors.themeColors.primaryDark,
-      colorScheme: ColorScheme.light(
-        primary: AppColors.themeColors.primaryColor,
-        secondary: AppColors.themeColors.accentColor,
-      ),
-      backgroundColor: AppColors.themeColors.backgroundColor,
       textSelectionTheme: TextSelectionThemeData(
         selectionColor: AppColors.themeColors.textSelectionColor,
       ),
-      textTheme: textTheme,
+      textTheme: textTheme, colorScheme: ColorScheme.light(
+        primary: AppColors.themeColors.primaryColor,
+        secondary: AppColors.themeColors.accentColor,
+      ).copyWith(background: AppColors.themeColors.backgroundColor),
     ).copyWith(
       pageTransitionsTheme: const PageTransitionsTheme(
         builders: <TargetPlatform, PageTransitionsBuilder>{
@@ -34,7 +32,7 @@ class AppTheme {
   }
 }
 
-class AppColors {
+class  AppColors {
   static ThemeColors themeColors = ThemeColors(
     orangeColor,
     orangeColor,
@@ -77,77 +75,77 @@ class ThemeColors {
 }
 
 final TextTheme textTheme = TextTheme(
-  headline1: GoogleFonts.quicksand(
+  displayLarge: GoogleFonts.quicksand(
     fontSize: 97,
     fontWeight: FontWeight.w300,
     // letterSpacing: -1.5,
     color: AppColors.blackTextColor,
   ),
-  headline2: GoogleFonts.quicksand(
+  displayMedium: GoogleFonts.quicksand(
     fontSize: 61,
     fontWeight: FontWeight.w300,
     // letterSpacing: -0.5,
     color: AppColors.blackTextColor,
   ),
-  headline3: GoogleFonts.quicksand(
+  displaySmall: GoogleFonts.quicksand(
     fontSize: 48,
     fontWeight: FontWeight.w400,
     color: AppColors.blackTextColor,
   ),
-  headline4: GoogleFonts.quicksand(
+  headlineMedium: GoogleFonts.quicksand(
     fontSize: 34,
     fontWeight: FontWeight.w400,
     // letterSpacing: 0.25,
     color: AppColors.blackTextColor,
   ),
-  headline5: GoogleFonts.quicksand(
+  headlineSmall: GoogleFonts.quicksand(
     fontSize: 24,
     fontWeight: FontWeight.w400,
     color: AppColors.blackTextColor,
   ),
-  headline6: GoogleFonts.quicksand(
+  titleLarge: GoogleFonts.quicksand(
     fontSize: 20,
     fontWeight: FontWeight.w500,
     // letterSpacing: 0.15,
     color: AppColors.blackTextColor,
   ),
-  subtitle1: GoogleFonts.quicksand(
+  titleMedium: GoogleFonts.quicksand(
     fontSize: 16,
     fontWeight: FontWeight.w400,
     // letterSpacing: 0.15,
     color: AppColors.blackTextColor,
   ),
-  subtitle2: GoogleFonts.quicksand(
+  titleSmall: GoogleFonts.quicksand(
     fontSize: 14,
     fontWeight: FontWeight.w500,
     // letterSpacing: 0.1,
     color: AppColors.blackTextColor,
   ),
-  bodyText1: GoogleFonts.quicksand(
+  bodyLarge: GoogleFonts.quicksand(
     fontSize: 16,
     fontWeight: FontWeight.w400,
     // letterSpacing: 0.5,
     color: AppColors.blackTextColor,
   ),
-  bodyText2: GoogleFonts.quicksand(
+  bodyMedium: GoogleFonts.quicksand(
     fontSize: 14,
     fontWeight: FontWeight.w400,
     // letterSpacing: 0.25,
     color: AppColors.blackTextColor,
   ),
-  button: GoogleFonts.quicksand(
+  labelLarge: GoogleFonts.quicksand(
     fontSize: 14,
     fontWeight: FontWeight.w500,
     // letterSpacing: 1.25,
     color: AppColors.blackTextColor,
   ),
-  caption: GoogleFonts.quicksand(
+  bodySmall: GoogleFonts.quicksand(
     fontSize: 12,
     fontWeight: FontWeight.w400,
     // letterSpacing: 0.4,
     color: AppColors.blackTextColor,
   ),
-  overline: GoogleFonts.quicksand(
+  labelSmall: GoogleFonts.quicksand(
     fontSize: 10,
     fontWeight: FontWeight.w400,
     letterSpacing: 1.5,
